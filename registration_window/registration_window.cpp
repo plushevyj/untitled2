@@ -26,6 +26,7 @@ RegistrationWindow::RegistrationWindow(QWidget* pattern) : QDialog(pattern) {
     mainlayout = new QVBoxLayout();
     mainlayout->addWidget(nameLabel);
     mainlayout->addWidget(name);
+    mainlayout->addSpacing(20);
     mainlayout->addWidget(jobTitleLabel);
     mainlayout->addWidget(jobTitle);
     mainlayout->addSpacing(20);
@@ -39,4 +40,6 @@ RegistrationWindow::RegistrationWindow(QWidget* pattern) : QDialog(pattern) {
     mainlayout->addWidget(enter);
     mainlayout->addWidget(back);
 
+    setLayout(mainlayout);
+    setWindowTitle("Регистрация");
 };

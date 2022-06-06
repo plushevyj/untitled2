@@ -6,11 +6,10 @@
 class RegistrationWindow : public QDialog {
     Q_OBJECT
 
-    RegistrationWindow(QWidget *pattern);
-
-
 public:
-    int idUser;
+    explicit RegistrationWindow(QWidget *pattern = nullptr);
+
+    int idUser{};
     QLabel* nameLabel;
     QLabel* name;
     QLabel* jobTitleLabel;

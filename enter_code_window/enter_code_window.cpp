@@ -4,6 +4,7 @@
 
 #include "enter_code_window.h"
 #include "../login_window/login_window.h"
+#include "../registration_window/registration_window.h"
 
 EnterCodeWindow::EnterCodeWindow(QWidget* pattern) : QDialog(pattern) {
     description = new QLabel("Введите код,\nкоторыйВам предоставил администратор");
@@ -20,6 +21,12 @@ EnterCodeWindow::EnterCodeWindow(QWidget* pattern) : QDialog(pattern) {
 
     setWindowTitle("Регистрация");
     setLayout(mainLayout);
+
+    connect(enter, &QPushButton::clicked, [=] {
+        auto* registrationWindow = new RegistrationWindow();
+        registrationWindow->show();
+        this->close();
+    });
 
     connect(back, &QPushButton::clicked, [=] {
         auto* loginWindow = new LoginWindow();

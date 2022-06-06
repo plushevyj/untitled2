@@ -51,9 +51,9 @@ LoginWindow::LoginWindow(QWidget* pattern) : QDialog(pattern) {
                 if (result1.next())
                 {
                     userRole = "employee";
-                    auto* employeeHomeWindow = new EmployeeHomeWindow();
-                    employeeHomeWindow->show();
-                    this->close();
+//                    auto* employeeHomeWindow = new EmployeeHomeWindow();
+//                    employeeHomeWindow->show();
+//                    this->close();
                 }
                 else {
                     qDebug() << "User is not found!";
