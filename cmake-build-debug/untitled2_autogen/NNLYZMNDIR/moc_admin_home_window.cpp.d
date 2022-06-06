@@ -1,38 +1,5 @@
-untitled2_autogen/timestamp: \
-  ../CMakeLists.txt \
-  ../admin_home_window/admin_home_window.cpp \
-  ../admin_home_window/admin_home_window.h \
-  CMakeFiles/3.22.3/CMakeCCompiler.cmake \
-  CMakeFiles/3.22.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.22.3/CMakeSystem.cmake \
-  untitled2_autogen/moc_predefs.h \
-  ../enter_code_window/enter_code_window.cpp \
-  ../enter_code_window/enter_code_window.h \
-  ../login_window/login_window.cpp \
-  ../login_window/login_window.h \
-  ../main.cpp \
-  ../registration_window/registration_window.cpp \
-  ../registration_window/registration_window.h \
-  ../sql_service/sql_service.cpp \
-  ../sql_service/sql_service.h \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake \
-  /snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake \
+/home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp: /home/kirill/CLionProjects/untitled2/admin_home_window/admin_home_window.h \
+  /home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -758,48 +725,4 @@ untitled2_autogen/timestamp: \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake \
-  /usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake \
-  /snap/clion/193/bin/cmake/linux/bin/cmake
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h

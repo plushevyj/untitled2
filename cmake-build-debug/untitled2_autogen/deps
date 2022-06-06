@@ -1,5 +1,7 @@
 untitled2_autogen/timestamp: \
 	/home/kirill/CLionProjects/untitled2/CMakeLists.txt \
+	/home/kirill/CLionProjects/untitled2/admin_home_window/admin_home_window.cpp \
+	/home/kirill/CLionProjects/untitled2/admin_home_window/admin_home_window.h \
 	/home/kirill/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake \
 	/home/kirill/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake \
 	/home/kirill/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake \
@@ -9,6 +11,8 @@ untitled2_autogen/timestamp: \
 	/home/kirill/CLionProjects/untitled2/login_window/login_window.cpp \
 	/home/kirill/CLionProjects/untitled2/login_window/login_window.h \
 	/home/kirill/CLionProjects/untitled2/main.cpp \
+	/home/kirill/CLionProjects/untitled2/registration_window/registration_window.cpp \
+	/home/kirill/CLionProjects/untitled2/registration_window/registration_window.h \
 	/home/kirill/CLionProjects/untitled2/sql_service/sql_service.cpp \
 	/home/kirill/CLionProjects/untitled2/sql_service/sql_service.h \
 	/snap/clion/193/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake \
