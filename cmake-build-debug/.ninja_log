@@ -1,0 +1,14 @@
+# ninja log v5
+27	3248	1654523943525402486	CMakeFiles/untitled2.dir/login_window/login_window.cpp.o	9db5392cef2faacc
+16	2914	1654505272256081669	CMakeFiles/untitled2.dir/login_page/login_window.cpp.o	eb33613f3ab95789
+2	26	1654523940305354232	untitled2_autogen/mocs_compilation.cpp	dcb6ba89cd0b2758
+3592	5477	1654522897369631758	CMakeFiles/untitled2.dir/sql_service/sql_service.cpp.o	6888f997910f557f
+16	3061	1654508923539514393	CMakeFiles/untitled2.dir/registration_window/registration_window.cpp.o	cb650c788cfe4c3c
+0	65	1654525027637678412	build.ninja	c221b1046617e991
+346	3396	1654523540823377653	CMakeFiles/untitled2.dir/main.cpp.o	816202fcefc7bcd8
+3370	6129	1654523543555418442	CMakeFiles/untitled2.dir/enter_code_window/enter_code_window.cpp.o	d88c43073f529da
+2	26	1654523940305354232	untitled2_autogen/timestamp	dcb6ba89cd0b2758
+2	26	1654523940305354232	/home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/mocs_compilation.cpp	dcb6ba89cd0b2758
+3248	3598	1654523943873407701	untitled2	886be3707badfa22
+346	3370	1654523540799377296	CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o	180b0a8c7df861a2
+2	26	1654523940305354232	/home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/timestamp	dcb6ba89cd0b2758
