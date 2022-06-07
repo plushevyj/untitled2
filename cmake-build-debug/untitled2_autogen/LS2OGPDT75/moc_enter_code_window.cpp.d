@@ -1,5 +1,5 @@
-/home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp: /home/kirill/CLionProjects/untitled2/enter_code_window/enter_code_window.h \
-  /home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/moc_predefs.h \
+/home/kirill/Projects/untitled2/cmake-build-debug/untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp: /home/kirill/Projects/untitled2/enter_code_window/enter_code_window.h \
+  /home/kirill/Projects/untitled2/cmake-build-debug/untitled2_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

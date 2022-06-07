@@ -19,6 +19,8 @@ public:
     QSpacerItem* spacer;
     QPushButton* haveCodeLabel;
     QVBoxLayout* mainLayout;
+    QVBoxLayout* layout1;
+    QGroupBox* box;
 
     void pushEnterButtonListener();
     void DataAutofillFromXML();

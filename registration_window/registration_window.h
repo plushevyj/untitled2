@@ -14,6 +14,8 @@ public:
     QLabel* name;
     QLabel* jobTitleLabel;
     QLabel* jobTitle;
+    QSpinBox* age;
+    QSlider* sliderAge;
     QLabel* newLoginLabel;
     QLineEdit* newLogin;
     QLabel* newPasswordLabel;
@@ -23,6 +25,8 @@ public:
     QPushButton* enter;
     QPushButton* back;
 
+    QHBoxLayout* ageLayout;
+    QGroupBox* ageGroup;
     QVBoxLayout* mainlayout;
 };
 

@@ -16,8 +16,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					]
 				}
 			],
@@ -33,8 +32,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					]
 				}
 			],
@@ -43,22 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled2-Debug-0a1a496e601ecf66385d.json",
+					"jsonFile" : "target-untitled2-Debug-20edf168945b39fd96e7.json",
 					"name" : "untitled2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled2_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled2_autogen-Debug-5cfff35b940b46bdbc82.json",
+					"jsonFile" : "target-untitled2_autogen-Debug-5f47d30634c179a86e09.json",
 					"name" : "untitled2_autogen",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "untitled2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled2_autogen_timestamp_deps-Debug-8b20e7ea518ad364d6af.json",
-					"name" : "untitled2_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
 			]
@@ -67,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/kirill/CLionProjects/untitled2/cmake-build-debug",
-		"source" : "/home/kirill/CLionProjects/untitled2"
+		"build" : "/home/kirill/Projects/untitled2/cmake-build-debug",
+		"source" : "/home/kirill/Projects/untitled2"
 	},
 	"version" : 
 	{

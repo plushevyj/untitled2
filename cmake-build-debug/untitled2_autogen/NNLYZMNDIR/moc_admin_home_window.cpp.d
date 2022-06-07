@@ -1,5 +1,5 @@
-/home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp: /home/kirill/CLionProjects/untitled2/admin_home_window/admin_home_window.h \
-  /home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/moc_predefs.h \
+/home/kirill/Projects/untitled2/cmake-build-debug/untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp: /home/kirill/Projects/untitled2/admin_home_window/admin_home_window.h \
+  /home/kirill/Projects/untitled2/cmake-build-debug/untitled2_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

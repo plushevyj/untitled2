@@ -1,10 +1,7 @@
-//
-// Created by kirill on 6/6/22.
-//
-
 #include "enter_code_window.h"
 #include "../login_window/login_window.h"
 #include "../registration_window/registration_window.h"
+#include "../sql_service/sql_service.h"
 
 EnterCodeWindow::EnterCodeWindow(QWidget* pattern) : QDialog(pattern) {
     description = new QLabel("Введите код,\nкоторыйВам предоставил администратор");
@@ -23,9 +20,21 @@ EnterCodeWindow::EnterCodeWindow(QWidget* pattern) : QDialog(pattern) {
     setLayout(mainLayout);
 
     connect(enter, &QPushButton::clicked, [=] {
-        auto* registrationWindow = new RegistrationWindow();
-        registrationWindow->show();
-        this->close();
+        auto db = SqlService::connectToDB();
+        if (db.open()) {
+            auto result = db.exec("SELECT id FROM employees WHERE invite_code = \'" + code->text() + "\'");
+            if (result.next()) {
+                auto* registrationWindow = new RegistrationWindow();
+                registrationWindow->show();
+                this->close();
+            }
+            else {
+//                QMessageBox* messageBox;
+                QMessageBox::critical(0,"Ошибка","Неверный код!");
+//                messageBox->setFixedSize(500,200);
+//                messageBox->open();
+            }
+        }
     });
 
     connect(back, &QPushButton::clicked, [=] {

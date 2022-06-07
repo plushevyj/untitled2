@@ -79,7 +79,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/include"
+					"path" : "/home/kirill/Projects/untitled2/cmake-build-debug/untitled2_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -140,9 +140,6 @@
 	],
 	"dependencies" : 
 	[
-		{
-			"id" : "untitled2_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
 		{
 			"backtrace" : 0,
 			"id" : "untitled2_autogen::@6890427a1f51a3e7e1df"
@@ -221,20 +218,6 @@
 				9,
 				11
 			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				12
-			]
-		},
-		{
-			"name" : "CMake Rules",
-			"sourceIndexes" : 
-			[
-				13
-			]
 		}
 	],
 	"sources" : 
@@ -306,18 +289,6 @@
 			"backtrace" : 1,
 			"path" : "registration_window/registration_window.h",
 			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/untitled2_autogen/timestamp",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/untitled2_autogen/timestamp.rule",
-			"sourceGroupIndex" : 3
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -15,6 +15,14 @@ LoginWindow::LoginWindow(QWidget* pattern) : QDialog(pattern) {
     password->setPlaceholderText("********");
     password->setEchoMode(QLineEdit::Password);
 
+    box = new QGroupBox();
+    layout1 = new QVBoxLayout();
+    layout1->addWidget(loginLabel);
+    layout1->addWidget(login);
+    layout1 ->addWidget(passwordLabel);
+    layout1->addWidget(password);
+    box->setLayout(layout1);
+
     saveMe = new QCheckBox("Запомнить меня");
     enter = new QPushButton("Войти");
 
@@ -23,10 +31,7 @@ LoginWindow::LoginWindow(QWidget* pattern) : QDialog(pattern) {
     haveCodeLabel = new QPushButton("Я новый сотрудник");
 
     mainLayout = new QVBoxLayout();
-    mainLayout->addWidget(loginLabel);
-    mainLayout->addWidget(login);
-    mainLayout ->addWidget(passwordLabel);
-    mainLayout->addWidget(password);
+    mainLayout->addWidget(box);
     mainLayout->addWidget(saveMe);
     mainLayout->addWidget(enter);
     mainLayout->addItem(spacer);

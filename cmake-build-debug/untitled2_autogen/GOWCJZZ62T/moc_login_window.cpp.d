@@ -1,5 +1,5 @@
-/home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/GOWCJZZ62T/moc_login_window.cpp: /home/kirill/CLionProjects/untitled2/login_window/login_window.h \
-  /home/kirill/CLionProjects/untitled2/cmake-build-debug/untitled2_autogen/moc_predefs.h \
+/home/kirill/Projects/untitled2/cmake-build-debug/untitled2_autogen/GOWCJZZ62T/moc_login_window.cpp: /home/kirill/Projects/untitled2/login_window/login_window.h \
+  /home/kirill/Projects/untitled2/cmake-build-debug/untitled2_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
