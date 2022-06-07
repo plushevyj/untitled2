@@ -870,4 +870,35 @@ CMakeFiles/untitled2.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h \
+ /home/kirill/Projects/untitled2/admin_home_window/admin_home_window.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSql \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSqlDepends \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriverplugin.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qitemdelegate.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication

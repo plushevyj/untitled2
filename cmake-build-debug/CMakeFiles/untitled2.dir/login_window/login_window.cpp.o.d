@@ -901,6 +901,10 @@ CMakeFiles/untitled2.dir/login_window/login_window.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
  /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase \
  /home/kirill/Projects/untitled2/login_window/../admin_home_window/admin_home_window.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
  /home/kirill/Projects/untitled2/login_window/../employee_home_window/employee_home_window.h \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXml \
  /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXmlDepends \

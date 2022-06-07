@@ -4,10 +4,10 @@
 CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_home_window/admin_home_window.cpp \
   /usr/include/stdc-predef.h \
   ../admin_home_window/admin_home_window.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/c++/11/type_traits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -96,7 +96,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
@@ -114,10 +113,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
@@ -272,12 +267,64 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractnativeeventfilter.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractproxymodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
@@ -294,14 +341,12 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbitarray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbuffer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraymatcher.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcache.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborarray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
@@ -310,17 +355,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \
@@ -371,7 +405,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileselector.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfilesystemwatcher.h \
@@ -411,9 +444,7 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlibraryinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversionnumber.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlinkedlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlockfile.h \
@@ -471,8 +502,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/c++/11/bits/random.tcc \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qreadwritelock.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
@@ -551,39 +580,19 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qaccessible.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qaccessiblebridge.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfactoryinterface.h \
@@ -598,7 +607,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurfaceformat.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qbitmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qclipboard.h \
@@ -685,8 +693,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpagesize.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintengine.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
@@ -736,11 +742,8 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiversion.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
@@ -861,7 +864,6 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmouseeventtransition.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qopenglwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
@@ -919,7 +921,37 @@ CMakeFiles/untitled2.dir/admin_home_window/admin_home_window.cpp.o: ../admin_hom
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwhatsthis.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSql \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSqlDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriverplugin.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
+  ../sql_service/sql_service.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase
 
 CMakeFiles/untitled2.dir/enter_code_window/enter_code_window.cpp.o: ../enter_code_window/enter_code_window.cpp \
   /usr/include/stdc-predef.h \
@@ -2820,6 +2852,10 @@ CMakeFiles/untitled2.dir/login_window/login_window.cpp.o: ../login_window/login_
   /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
   /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase \
   ../admin_home_window/admin_home_window.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
   ../employee_home_window/employee_home_window.h \
   /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXml \
   /usr/include/x86_64-linux-gnu/qt5/QtXml/QtXmlDepends \
@@ -3749,6 +3785,37 @@ CMakeFiles/untitled2.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h \
+  ../admin_home_window/admin_home_window.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSql \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSqlDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriverplugin.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 
 CMakeFiles/untitled2.dir/registration_window/registration_window.cpp.o: ../registration_window/registration_window.cpp \
@@ -5423,10 +5490,10 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   ../admin_home_window/admin_home_window.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/c++/11/cstddef \
   /usr/include/assert.h \
@@ -5455,7 +5522,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
@@ -5467,10 +5533,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
@@ -5571,12 +5633,55 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractnativeeventfilter.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractproxymodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
@@ -5593,14 +5698,12 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbitarray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbuffer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraymatcher.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcache.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcalendar.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborarray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
@@ -5609,8 +5712,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \
@@ -5661,7 +5762,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileselector.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfilesystemwatcher.h \
@@ -5701,9 +5801,7 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlibraryinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversionnumber.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlinkedlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlockfile.h \
@@ -5761,8 +5859,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/c++/11/bits/random.tcc \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qreadwritelock.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
@@ -5841,39 +5937,19 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextdocument.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qaccessible.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qaccessiblebridge.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qfactoryinterface.h \
@@ -5888,7 +5964,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurfaceformat.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qbitmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qclipboard.h \
@@ -5975,8 +6050,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpagesize.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintengine.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
@@ -6026,11 +6099,8 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiversion.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
@@ -6151,7 +6221,6 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmouseeventtransition.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qopenglwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h \
@@ -6210,6 +6279,34 @@ CMakeFiles/untitled2.dir/untitled2_autogen/mocs_compilation.cpp.o: untitled2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSql \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSqlDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriverplugin.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qitemdelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
   untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp \
   ../enter_code_window/enter_code_window.h \
   untitled2_autogen/GOWCJZZ62T/moc_login_window.cpp \
@@ -6232,6 +6329,12 @@ untitled2_autogen/mocs_compilation.cpp:
 
 ../employee_home_window/employee_home_window.h:
 
+../registration_window/registration_window.h:
+
+../login_window/login_window.h:
+
+../enter_code_window/enter_code_window.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h:
@@ -6245,12 +6348,6 @@ untitled2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSqlDepends:
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSql:
-
-../registration_window/registration_window.h:
-
-../login_window/login_window.h:
-
-../enter_code_window/enter_code_window.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsversion.h:
 
@@ -6289,8 +6386,6 @@ untitled2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qprogressbar.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h:
 
@@ -6369,12 +6464,6 @@ untitled2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiversion.h:
 
@@ -6488,13 +6577,9 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qgenericplugin.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qclipboard.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbitmap.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
 
@@ -6512,21 +6597,7 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qaccessibleobject.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qproxystyle.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h:
 
@@ -6536,21 +6607,11 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmdisubwindow.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qabstracttextdocumentlayout.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:
 
@@ -6636,6 +6697,38 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsavefile.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qresource.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qreadwritelock.h:
+
+/usr/include/c++/11/bits/random.h:
+
+/usr/include/c++/11/random:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdial.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qqueue.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpluginloader.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qsyntaxhighlighter.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qoperatingsystemversion.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectcleanuphandler.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimedatabase.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpauseanimation.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h:
@@ -6648,17 +6741,23 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qparallelanimationgroup.h:
+
+/usr/include/c++/11/iterator:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h:
 
 /usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractnativeeventfilter.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h:
 
 /usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/c++/11/initializer_list:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qreadwritelock.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollbar.h:
 
@@ -6676,17 +6775,27 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcommandlineoption.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindow.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileselector.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileselector.h:
+
 /usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -6732,7 +6841,15 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmessageauthenticationcode.h:
+
+/usr/include/c++/11/map:
+
 /usr/include/c++/11/iosfwd:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimedata.h:
+
+/usr/include/c++/11/ext/concurrence.h:
 
 /usr/include/locale.h:
 
@@ -6764,10 +6881,6 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
@@ -6781,6 +6894,10 @@ untitled2_autogen/LS2OGPDT75/moc_enter_code_window.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qplugin.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
 
 /usr/include/c++/11/cerrno:
 
@@ -6806,25 +6923,7 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglshaderprogram.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h:
-
-../login_window/login_window.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h:
-
-/usr/include/c++/11/random:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qdrag.h:
 
@@ -6842,19 +6941,27 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgetsDepends:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsplashscreen.h:
 
-/usr/include/stdint.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qopenglwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/c++/11/bits/exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -6898,6 +7005,16 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/c++/11/system_error:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -6920,6 +7037,8 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpdfwriter.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h:
@@ -6927,6 +7046,8 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/c++/11/memory:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsignaltransition.h:
 
@@ -6938,13 +7059,7 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
-
 /usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtemporarydir.h:
 
@@ -6960,18 +7075,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfuturesynchronizer.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtranslator.h:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QPaintDeviceWindow:
 
 /usr/include/c++/11/bits/vector.tcc:
@@ -6983,8 +7086,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/assert.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:
 
 /usr/include/wchar.h:
 
@@ -7001,6 +7102,12 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
 
 /usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QRect:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtableview.h:
 
@@ -7020,21 +7127,23 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
 
 /usr/include/c++/11/utility:
 
-/usr/include/c++/11/future:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/c++/11/ext/numeric_traits.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimetype.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
 
-/usr/include/c++/11/bits/unique_lock.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtemporaryfile.h:
 
@@ -7043,14 +7152,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:
 
 /usr/include/c++/11/bits/allocator.h:
 
@@ -7076,6 +7177,52 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/c++/11/bits/move.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpagelayout.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QWindow:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QSurfaceFormat:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
+
+/usr/include/c++/11/future:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglshaderprogram.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h:
+
+../login_window/login_window.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrandom.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:
@@ -7092,21 +7239,15 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:
 
-/usr/include/c++/11/bits/ostream_insert.h:
-
 /usr/include/c++/11/streambuf:
+
+/usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -7165,6 +7306,18 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qformlayout.h:
 
@@ -7234,20 +7387,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpagelayout.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QWindow:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QSurfaceFormat:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -7256,9 +7395,9 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimedatabase.h:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaccessiblewidget.h:
 
@@ -7292,14 +7431,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QRect:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/locale_classes.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractnativeeventfilter.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
@@ -7311,14 +7442,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qdesktopservices.h:
 
 /usr/include/c++/11/exception:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qquaternion.h:
 
@@ -7402,11 +7525,7 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/c++/11/bits/list.tcc:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h:
-
-/usr/include/c++/11/iterator:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qparallelanimationgroup.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsproxywidget.h:
 
@@ -7444,6 +7563,10 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
 
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qconcatenatetablesproxymodel.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcolumnview.h:
@@ -7466,9 +7589,9 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h:
 
-/usr/include/c++/11/stdexcept:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h:
+
+/usr/include/c++/11/stdexcept:
 
 /usr/include/c++/11/bits/stl_map.h:
 
@@ -7484,49 +7607,37 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/c++/11/ctime:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+/usr/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcompleter.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractstate.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracttransition.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qanimationgroup.h:
-
-/usr/include/strings.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydataops.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydatapointer.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbitarray.h:
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbuffer.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracttransition.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qproxystyle.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfileiconprovider.h:
 
@@ -7539,6 +7650,72 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfuture.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtranslator.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydatapointer.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QtWidgets:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcompleter.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractstate.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qanimationgroup.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydataops.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbitarray.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector3d.h:
 
@@ -7564,10 +7741,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcalendar.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfloat16.h:
@@ -7584,19 +7757,11 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
 
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h:
-
-/usr/include/c++/11/map:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmessageauthenticationcode.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdiriterator.h:
 
@@ -7608,15 +7773,11 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfinalstate.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList:
-
 ../admin_home_window/admin_home_window.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfilesystemwatcher.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectcleanuphandler.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrunnable.h:
 
@@ -7638,6 +7799,10 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qidentityproxymodel.h:
 
+/usr/include/c++/11/bits/random.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qloggingcategory.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qisenum.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcommonstyle.h:
@@ -7645,14 +7810,6 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h:
 
@@ -7675,59 +7832,3 @@ untitled2_autogen/NNLYZMNDIR/moc_admin_home_window.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlockfile.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmath.h:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimedata.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimetype.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qsyntaxhighlighter.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qoperatingsystemversion.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpauseanimation.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qplugin.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsplashscreen.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qopenglwidget.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpluginloader.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdial.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qqueue.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtextedit.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qrandom.h:
-
-/usr/include/c++/11/bits/random.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qloggingcategory.h:
-
-/usr/include/c++/11/bits/random.tcc:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qresource.h:

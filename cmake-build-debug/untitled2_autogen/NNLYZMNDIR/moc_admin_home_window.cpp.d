@@ -584,7 +584,27 @@
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector4d.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSql \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSqlDepends \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriverplugin.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCommonStyle \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollerProperties \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
